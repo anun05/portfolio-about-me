@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: grey;
+    color: lightblue;
+}
+header h1 {
+    background-color: lightblue;
+    color: grey;
+    width: 25%;
+}
+a:hover {
+    color:black;
+}
+ 
+nav ul { 
+    display: flex;  
+    list-style: none;
+    font-size: 20px;
+}
+ 
+nav a {
+    color: lightblue;
+    font-weight: bold;
+    padding: 30px;
+ 
+}
+ 
+.images {
+    max-height: 200px;
+    text-align: center;
+    background-image: repeating-linear-gradient(45deg, grey 10px, darkgrey 10px, lightblue 50px);
+}
+#aleximage {
+    border-radius: 50px;
+}
+#asidecon {
+    float: left;
+}
+ 
+#imgbox2 {
+   width: 100%;
+   border: 5px solid black;
+   margin: 5px;
+}
+ 
+#imgbox3 {
+    width: 50%; 
+    border: 2px solid black;
+}
+#imgbox4 {
+    width: 50%; 
+    border: 2px solid black;
+    float: right;
+}
+.strand {
+    margin-left: 20px;
+    margin: 20px;
+    padding: 70px;
+    font-size: 20px;
+}
+.strand h1 {
+    color:lightblue;
+    border: 2px solid lightblue;
+    width: 15%;
+    text-align: center;
+    margin: 20px;
+}
+#all {
+    color: black;
+}
+ 
+.pTags {
+    font-size: 20px;
+}
+ 
+ 
+@media screen and (max-width: 992px) {
+    header {
+      background: grey;
+    }
+}
+ 
+ 
+
